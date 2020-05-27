@@ -34,8 +34,5 @@ with open("text.txt") as f:
         for ch in line:
             text_occurrence.push(ch.lower())
 
-
-print('coucou')
-
 print(text_occurrence)
 f.close()
